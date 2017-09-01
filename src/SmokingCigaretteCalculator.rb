@@ -9,7 +9,7 @@ class SmokingCigaretteCalculator
         total_days  = years_count * days_in_a_year
         total_cigs  = total_days * cigs_per_day
         money_spent = (total_cigs / cigs_per_case) * cig_case_price
-        return money_spent
+        money_spent
     end
 
 end
